@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "incremental": true,
+        "module": "commonjs",
+        "noImplicitReturns": true,
+        "noUnusedLocals": true,
+        "outDir": "lib",
+        "sourceMap": true,
+        "strict": true,
+        "target": "es2017",
+        "esModuleInterop": true,
+        "lib": ["ES2020.Promise", "DOM", "ES2019.Object"]
+    },
+    "compileOnSave": true,
+    "include": ["src"]
+}
